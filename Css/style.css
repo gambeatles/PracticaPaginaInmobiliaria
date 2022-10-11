@@ -1,0 +1,179 @@
+/* ---------- Header ---------- */
+.cabecera {
+    background-image: url("../Images/header.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+}
+
+div.raices {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: 10vw;
+}
+
+.bienes {
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.link {
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10vw;
+}
+
+.link a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.textoHead {
+    color: white;
+    margin-top: 75vh;
+    margin-left: 10vw;
+}
+
+/* ---------- Header ---------- */
+
+.contactanos {
+    background-image: url("../Images/encuentra.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.blogUno {
+    background-image: url("../Images/blog1.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    width: 40vh;
+}
+
+.blogDos {
+    background-image: url("../Images/blog2.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    width: 40vh;
+}
+
+.propiedadUno {
+    background-image: url("../Images/anuncio1.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+.propiedadDos {
+    background-image: url("../Images/anuncio2.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+.propiedadTres {
+    background-image: url("../Images/anuncio3.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+.propiedades {
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.cardUno , .cardDos , .cardTres {
+    border: 1px;
+    border-style: solid;
+    margin: 10px;
+    text-align: left;
+}
+
+.nosotros {
+    text-align: center;
+}
+
+.casas {
+    text-align: center;
+}
+
+.seccionBlog {
+    display: flex;
+}
+
+.textoTestimonial {
+    border: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: darkgreen;
+}
+
+.cuadroUno , .cuadroDos {
+    display: grid;
+    grid-column: 1fr 1fr;
+}
+
+.blogUno , .blogDos {
+    grid-column: 1/2;
+}
+
+.textoBlogUno , .textoBlogDos {
+    grid-column: 2/3;
+}
+
+footer {
+    background-color: dimgray;
+}
+
+.piePagina {
+    display: flex;
+}
+
+.tarjetas {
+    display: flex;
+    padding: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.seguridad {
+    padding: 15px;
+    text-align: center;
+}
+
+.precio {
+    padding: 15px;
+    text-align: center;
+}
+
+.tiempo {
+    padding: 15px;
+    text-align: center;
+}
+
+
+
