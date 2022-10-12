@@ -1,4 +1,16 @@
+html , * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
 /* ---------- Header ---------- */
+
 .cabecera {
     background-image: url("../Images/header.jpg");
     background-position: center center;
@@ -12,65 +24,95 @@ div.raices {
     color: white;
     display: flex;
     justify-content: center;
-    margin-left: 10vw;
+    margin-left: 15%;
 }
 
 .bienes {
+    margin-top: 3%;
     font-size: 2.5rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 div.link {
     display: flex;
+    margin-top: 3%;
     margin-left: auto;
     justify-content: center;
     align-items: center;
-    margin-right: 10vw;
+    margin-right: 15%;
 }
 
 .link a{
     color: white;
     text-decoration: none;
-    margin: 20px;
+    margin: 7% 7%;
     align-items: center;
     justify-content: center;
 }
 
 .textoHead {
     color: white;
-    margin-top: 75vh;
-    margin-left: 10vw;
+    margin-top: 38%;
+    margin-left: 12%;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* ---------- Header ---------- */
+/* ---------- Seccion Nosotros ---------- */
 
-.contactanos {
-    background-image: url("../Images/encuentra.jpg");
-    background-position: center center;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+.nosotros {
+    margin-top: 4vh;
+    text-align: center;
+    font-size: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.blogUno {
-    background-image: url("../Images/blog1.jpg");
-    background-position: center center;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 20vh;
-    width: 40vh;
+.tarjetas {
+    display: flex;
+    padding: 2vh 2vw;
+    margin-left: 5vh;
+    margin-right: 5vh;
 }
 
-.blogDos {
-    background-image: url("../Images/blog2.jpg");
-    background-position: center center;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 20vh;
-    width: 40vh;
+.seguridad , .precio , .tiempo {
+    padding: 2vh 2vw;
+    text-align: center;
+}
+
+.precio img , .seguridad img , .tiempo img {
+    margin-bottom: 4vh;
+}
+
+.precio h1 , .seguridad h1 , .tiempo h1 {
+    margin-bottom: 4vh;
+}
+
+div.seguridad {
+    margin: 4px;
+}
+
+/* ---------- Seccion Venta ---------- */
+
+.casas {
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.propiedades {
+    display: flex;
+    padding: 1% 2%;
+    margin: 0 1%;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardUno , .cardDos , .cardTres {
+    border: 1px;
+    border-color: grey;
+    border-style: solid;
+    margin: 1% 1%;
 }
 
 .propiedadUno {
@@ -100,36 +142,176 @@ div.link {
     height: 60vh;
 }
 
-.propiedades {
+.textoUno , .textoDos , .textoTres {
+    padding: 2% 2%;
+}
+
+.textoUno h3 , .textoDos h3 , .textoTres h3 {
+    color: rgb(115,178,32);
+}
+
+.textoUno h1 , .textoDos h1 , .textoTres h1 {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.iconosUno , div.iconosDos , div.iconosTres {
     display: flex;
-    padding-left: 80px;
-    padding-right: 80px;
+    align-items: center;
+    justify-content: center;
 }
 
-.cardUno , .cardDos , .cardTres {
-    border: 1px;
-    border-style: solid;
-    margin: 10px;
-    text-align: left;
+.iconosUno img , .iconosDos img , .iconosTres img{
+    margin: 3%;
+    align-items: center;
 }
 
-.nosotros {
+.iconosUno img span , .iconosDos img span , .iconosTres img span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    justify-items: center;
 }
 
-.casas {
-    text-align: center;
+div.botonUno , div.botonDos , div.botonTres {
+    display: flex;
+    margin: 2% 1%;
+    justify-content: center;
+}
+
+.botonUno button , .botonDos button , .botonTres button {
+    background-color: rgb(223, 135, 22);
+    width: 220px;
+    height: 35px;
+    margin: 0;
+    border: 0;
+    color: white;
+}
+
+.botonVenta {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 4%;
+}
+
+.botonVenta button {
+    background-color: rgb(115,178,32);
+    border: 0;
+    color: white;
+    height: 30px;
+    width: 100px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+/* ---------- Seccion Venta ---------- */
+
+.contactanos {
+    background-image: url("../Images/encuentra.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
+
+.encuentra {
+    color: white;
+    margin-left: 16%;
+    padding-top: 5%;
+}
+
+.encuentra p {
+    color: white;
+    margin-top: 3%;
+}
+
+.botonContacto button {
+    background-color: rgb(223, 135, 22);
+    width: 140px;
+    height: 40px;
+    margin: 0;
+    border: 0;
+    color: white;
+    margin-left: 16%;
+    margin-top: 3%;
+}
+
+/* ---------- Seccion Blog ---------- */
+
+.blogUno {
+    background-image: url("../Images/blog1.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30vh;
+    width: 30vh;
+    grid-column: 1/2;
+}
+
+.blogDos {
+    background-image: url("../Images/blog2.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 30vh;
+    width: 30vh;
+    grid-column: 1/2;
 }
 
 .seccionBlog {
     display: flex;
+    margin-top: 3%;
+}
+
+p.blog{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 40%;
+    font-size: 2rem;
+    font-family: sans-serif;
 }
 
 .textoTestimonial {
-    border: 1px;
+    display: flex;
+    border: 0;
     border-style: solid;
     border-radius: 20px;
-    background-color: darkgreen;
+    background-color: rgb(113, 177, 31);
+    padding: 8% 5%;
+    color: white;
+}
+
+.textoTestimonial img {
+    height: 8vh;
+}
+
+.textoTestimonial div {
+    display: flex;
+    margin: 10% 0;
+}
+
+div.textoTestimonial p {
+    margin: 10% 0;
+}
+
+.textoTestimonial p {
+    font-size: 1.5rem;
+    margin: 1%;
+    padding: 1% 1%;
+    text-align:initial;
+}
+
+.textoTestimonial span {
+    font-size: 1.5rem;
+    margin-top: 3%;
+    margin-left: 30%;
+    padding: 1% 1%;
 }
 
 .cuadroUno , .cuadroDos {
@@ -137,43 +319,82 @@ div.link {
     grid-column: 1fr 1fr;
 }
 
-.blogUno , .blogDos {
-    grid-column: 1/2;
+div.cuadroUno , div.cuadroDos {
+    margin-left: 8vw;
+}
+
+div.testimonial {
+    margin-right: 8vw;
 }
 
 .textoBlogUno , .textoBlogDos {
     grid-column: 2/3;
+    display: flex;
+    justify-content: left;
+    margin-left: 0;
+    margin-top: 2vh;
+    padding: 2%;
+    width: 40vw;
 }
 
+.testimonial {
+    text-align: center;
+    align-items: center;
+    margin: 0 0 6vh 2vw;
+    padding: 0;
+    margin-right: 2vw;
+}
+
+p.testimoniales {
+    margin: 0 0 3vh 0;
+    padding: 0;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+hr {
+    width: 11vw;
+    background-color: rgb(113, 177, 31);
+    height: 6px;
+    margin-top: 1vh;
+}
+
+.admin span {
+    color: rgb(223, 135, 22);
+}
+
+/* ---------- Footer ---------- */
+
 footer {
-    background-color: dimgray;
+    background-color: rgb(50, 50, 50);
 }
 
 .piePagina {
     display: flex;
+    justify-content: left;
+    color: white;
+    margin-left: 5vw;
 }
 
-.tarjetas {
+.piePagina h4 {
+    margin: 2%;
+}
+
+.derechos {
     display: flex;
-    padding: 20px;
-    margin-left: 60px;
-    margin-right: 60px;
-}
-
-.seguridad {
-    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20vw;
     text-align: center;
+    width: 50%;
 }
 
-.precio {
-    padding: 15px;
-    text-align: center;
+.pie {
+    margin: 0;
+    padding: 1%;
 }
 
-.tiempo {
-    padding: 15px;
-    text-align: center;
+a {
+    color: white;
+    text-decoration: none;
 }
-
-
-
