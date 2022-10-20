@@ -10,12 +10,103 @@
 </head>
 <body>
     <main>
-        <header>
-
+        <header class="sobreNosotros">
+            <div class="sobre">
+                <img src="/Images/logo.svg" alt="Logo" class="bienesNosotros">
+                <div class="linkNosotros">
+                    <a href="Nosotros.html">Nosotros</a>
+                    <a href="Anuncios.html">Anuncios</a>
+                    <a href="Blog.html">Blog</a>
+                    <a href="Contacto.html">Contacto</a>
+                </div>
+            </div>
         </header>
         <section>
-
+            <div class="imagenContacto"></div>
         </section>
+
+        <section>
+            <div class="tituloContacto">
+                <p>Llena el Formulario de Contacto</p>
+            </div>
+            <fieldset>
+                <legend>Informacion Personal</legend>
+                    <div class="formularioPersonal">
+                        <form>
+                            <div>
+                                <label for="namePersonal">Nombre:</label>
+                                <input type="text" id="namePersonal" name="user_name" placeholder="Tu Nombre">
+                            </div>
+                            <div>
+                                <label for="mailPersonal">E-mail:</label>
+                                <input type="email" id="mailPersonal" name="user_mail" placeholder="Tu Email">
+                            </div>
+                            <div>
+                                <label for="telefonoPersonal">Telefono:</label>
+                                <input type="tel" id="telefonoPersonal" name="telefono" placeholder="Tu telefono">
+                            </div>
+                            <div>
+                                <label for="msgPersonal">Mensaje:</label>
+                                <textarea id="msgPersonal" name="user_message" placeholder=" " rows="6"></textarea>
+                            </div>
+                        </form>
+                    </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Informacion sobre Propiedad</legend>
+                    <div class="formularioPropiedad">
+                        <form>
+                            <div>
+                                <label for="vendePropiedad">Vende o Compra:</label>
+                                <input list="vende" name="compra" placeholder="-- Seleccione --">
+                                <datalist id="vende">
+                                    <option value="Vender">
+                                    <option value="Comprar">
+                                </datalist>
+                            </div>
+                            <div>
+                                <label for="presupuestoPropiedad">Presupuesto:</label>
+                                <input type="tel" id="presupuestoPropiedad" name="presupuesto" placeholder=" ">
+                            </div>
+                        </form>
+                    </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Informacion Personal</legend>
+                    <div class="formularioContacto">
+                        <form>    
+                            <div>
+                                <label>Como desea ser Contactado:</label><br><br>
+                            </div>
+                            <div>
+                                <label for="telefonoContacto">Telefono:</label>
+                                <input type="radio" id="telefonoContacto" name="telefono"><br><br>
+                            </div>
+                            <div>
+                                <label for="correoContacto">Correo:</label>
+                                <input type="radio" id="correoContacto" name="correo"><br><br>
+                            </div>
+                            <div>
+                                <label>Si Eligio Telefono, elija la Fecha y Hora</label><br><br>
+                            </div>
+                            <div>
+                                <label for="fechaContacto">Fecha:</label>
+                                <input type="date" id="fechaContacto" name="fecha" placeholder="">
+                            </div>
+                            <div>
+                                <label for="horaContacto">Hora:</label>
+                                <input type="time" id="horaContacto" name="hora" placeholder="">
+                            </div>
+                            <div class="botonFormulario">
+                                <button type="button"><a href="PaginaVacia.html">ENVIAR</a></button>
+                            </div>
+                        </form>
+                    </div>
+            </fieldset>
+        </section>
+
         <footer>
             <div class="pie">
                 <div class="piePagina">

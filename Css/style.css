@@ -4,11 +4,6 @@ html , * {
     box-sizing: border-box;
 }
 
-main {
-    margin: 0;
-    padding: 0;
-}
-
 /* ---------- Header ---------- */
 
 .cabecera {
@@ -25,12 +20,11 @@ div.raices {
     display: flex;
     justify-content: center;
     margin-left: 15%;
+    align-items: center;
 }
 
 .bienes {
-    margin-top: 3%;
-    font-size: 2.5rem;
-    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
 }
 
 div.link {
@@ -89,6 +83,10 @@ div.link {
 
 div.seguridad {
     margin: 4px;
+}
+
+.tarjetas p {
+    text-align: center;
 }
 
 /* ---------- Seccion Venta ---------- */
@@ -161,7 +159,7 @@ div.iconosUno , div.iconosDos , div.iconosTres {
     justify-content: center;
 }
 
-.iconosUno img , .iconosDos img , .iconosTres img{
+.iconosUno img , .iconosDos img , .iconosTres img {
     margin: 3%;
     align-items: center;
 }
@@ -196,17 +194,17 @@ div.botonUno , div.botonDos , div.botonTres {
     margin-right: 4%;
 }
 
-.botonVenta button {
+.botonVenta a button {
     background-color: rgb(115,178,32);
     border: 0;
     color: white;
     height: 30px;
     width: 100px;
     margin-top: 5%;
-    margin-bottom: 2%;
+    margin-bottom: 8%;
 }
 
-/* ---------- Seccion Venta ---------- */
+/* ---------- Seccion Contactanos ---------- */
 
 .contactanos {
     background-image: url("../Images/encuentra.jpg");
@@ -268,7 +266,7 @@ div.botonUno , div.botonDos , div.botonTres {
     margin-top: 3%;
 }
 
-p.blog{
+p.blog {
     display: flex;
     align-items: center;
     justify-content: right;
@@ -310,7 +308,7 @@ div.textoTestimonial p {
 .textoTestimonial span {
     font-size: 1.5rem;
     margin-top: 3%;
-    margin-left: 30%;
+    margin-left: 25%;
     padding: 1% 1%;
 }
 
@@ -397,4 +395,385 @@ footer {
 a {
     color: white;
     text-decoration: none;
+}
+
+/* ---------- Nosotros ---------- */
+
+header.sobreNosotros {
+    display: flex;
+    background-color: rgb(50, 50, 50);
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre {
+    display: flex;
+    color: white;
+    margin: 10px;
+}
+
+.linkNosotros {
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+}
+
+.linkNosotros a {
+    margin: 10px;
+}
+
+.bienesNosotros {
+    display: flex;
+    justify-content: left;
+    margin-right: 35vw;
+}
+
+.experiencia {
+    display: flex;
+    margin: 3vh 12vw;
+}
+
+.experiencia img {
+    width: 60vw;
+    height: 60vh;
+}
+
+.experienciaNosotros {
+    text-align: center;
+    margin: 15px;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textoExperiencia {
+    display: flex;
+    text-align: justify;
+}
+
+.anios {
+    text-align: left;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.aniosExperiencia {
+    margin: 15px;
+}
+
+/* ---------- Anuncios ---------- */
+
+.propiedadesUno , .propiedadesDos {
+    display: flex;
+    padding: 1% 2%;
+    margin: 0 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardCuatro , .cardCinco , .cardSeis {
+    border: 1px;
+    border-color: grey;
+    border-style: solid;
+    margin: 1% 1%;
+}
+
+.propiedadCuatro {
+    background-image: url("../Images/anuncio4.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+.propiedadCinco {
+    background-image: url("../Images/anuncio5.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+.propiedadSeis {
+    background-image: url("../Images/anuncio6.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+.textoCuatro , .textoCinco , .textoSeis {
+    padding: 2% 2%;
+}
+
+.textoCuatro h3 , .textoCinco h3 , .textoSeis h3 {
+    color: rgb(115,178,32);
+}
+
+.textoCuatro h1 , .textoCinco h1 , .textoSeis h1 {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.iconosCuatro , div.iconosCinco , div.iconosSeis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconosCuatro img , .iconosCinco img , .iconosSeis img {
+    margin: 3%;
+    align-items: center;
+}
+
+.iconosCuatro img span , .iconosCinco img span , .iconosSeis img span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+
+div.botonCuatro , div.botonCinco , div.botonSeis {
+    display: flex;
+    margin: 2% 1%;
+    justify-content: center;
+}
+
+.botonCuatro button , .botonCinco button , .botonSeis button {
+    background-color: rgb(223, 135, 22);
+    width: 220px;
+    height: 35px;
+    margin: 0;
+    border: 0;
+    color: white;
+}
+
+.casasDepas {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ---------- Blogs ---------- */
+
+.blogUnoCard {
+    background-image: url("../Images/blog1.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30vh;
+    width: 30vh;
+    grid-column: 1/2;
+}
+
+.blogDosCard {
+    background-image: url("../Images/blog2.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 30vh;
+    width: 30vh;
+    grid-column: 1/2;
+}
+
+.blogTresCard {
+    background-image: url("../Images/blog3.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 30vh;
+    width: 30vh;
+    grid-column: 1/2;
+}
+
+.blogCuatroCard {
+    background-image: url("../Images/blog4.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 30vh;
+    width: 30vh;
+    grid-column: 1/2;
+}
+
+p.blogCards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 0;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+.cuadroUnoCard , .cuadroDosCard , .cuadroTresCard , .cuadroCuatroCard {
+    display: grid;
+    grid-column: 1fr 1fr;
+}
+
+div.cuadroUnoCard , div.cuadroDosCard , div.cuadroTresCard , div.cuadroCuatroCard {
+    margin-left: 30vw;
+    margin-right: 30vw;
+}
+
+.textoBlogUnoCard , .textoBlogDosCard , .textoBlogTresCard , .textoBlogCuatroCard {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: left;
+    margin-left: 0;
+    margin-top: 2vh;
+    margin-right: 10vw;
+    padding: 1% 6%;
+    width: 40vw;
+}
+
+hr {
+    width: 11vw;
+    background-color: rgb(113, 177, 31);
+    height: 6px;
+    margin-top: 1vh;
+}
+
+.adminCard span {
+    color: rgb(223, 135, 22);
+}
+
+/* ---------- Contacto ---------- */
+
+.imagenContacto {
+    background-image: url("../Images/destacada3.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.tituloContacto p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5vh 4vw;
+}
+
+.formularioPersonal , .formularioPropiedad , .formularioContacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 2vw;
+}
+
+.formularioPersonal input , .formularioPropiedad input {
+    display: flex;
+    align-items: center;
+    width: 40vw;
+}
+
+.formularioPersonal textArea {
+    display: flex;
+    align-items: center;
+    width: 40vw;
+}
+
+fieldset legend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2vw;
+}
+
+fieldset {
+    margin: 4vh 25vw;
+    padding: 0;
+}
+
+::placeholder {
+    background-color: rgb(225, 225, 225);
+}
+
+.botonFormulario button {
+    background-color: rgb(115,178,32);
+    border: 0;
+    color: white;
+    width: 6vw;
+    height: 4vh;
+    margin: 5px;
+    margin-left: 0;
+}
+
+input#horaContacto , input#fechaContacto {
+    display: flex;
+    width: 40vw;
+    align-items: center;
+}
+
+.formularioContacto input {
+    display: flex;
+}
+
+input {
+    background-color: rgb(225, 225, 225);
+    padding: 0;
+    border: 0;
+    height: 4vh;;
+}
+
+textarea {
+    background-color: rgb(225, 225, 225);
+    border: 0;
+}
+
+.formularioPersonal div , .formularioPropiedad div , .formularioContacto div {
+    margin: 2vh 0;
+}
+
+/* ---------- Pagina Construccion ---------- */
+
+img .imagenConstruccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenSeccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------- Pagina Anuncio ---------- */
+
+.propiedadAnuncio {
+    background-image: url("../Images/destacada.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+}
+
+div.iconosAnuncio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconosAnuncio img {
+    margin: 3%;
+    align-items: center;
+}
+
+.iconosAnuncio img span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
