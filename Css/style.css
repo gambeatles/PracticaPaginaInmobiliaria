@@ -641,6 +641,10 @@ hr {
     margin-top: 1vh;
 }
 
+.adminCard span a {
+    color: rgb(223, 135, 22);
+}
+
 .adminCard span {
     color: rgb(223, 135, 22);
 }
@@ -750,10 +754,10 @@ img .imagenConstruccion {
     align-items: center;
 }
 
-/* ---------- Pagina Anuncio ---------- */
+/* ---------- Pagina Anuncio 1 ---------- */
 
-.propiedadAnuncio {
-    background-image: url("../Images/destacada.jpg");
+.propiedadAnuncioUno {
+    background-image: url("../Images/anuncio1.jpg");
     background-position: center center;
     background-attachment: scroll;
     background-repeat: no-repeat;
@@ -761,19 +765,166 @@ img .imagenConstruccion {
     height: 120vh;
 }
 
-div.iconosAnuncio {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.iconosAnuncio img {
-    margin: 3%;
-    align-items: center;
-}
-
-.iconosAnuncio img span {
+.imagenesAnuncio img span {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: right;
+}
+
+.anuncio h3 {
+    display: flex;
+    align-items: center;
+    color: rgb(115,178,32);
+}
+
+.cardAnuncio h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+}
+
+div .imagenesAnuncio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.anuncioUno , .anuncioDos , .anuncioTres {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 0 2vw;
+}
+
+.anuncio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30vh;
+    margin: 0 10vw;
+}
+
+.textoAnuncio {
+    margin: 5vh 10vw;
+}
+
+/* ---------- Pagina Anuncio 2 ---------- */
+
+.propiedadAnuncioDos {
+    background-image: url("../Images/anuncio2.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+}
+
+/* ---------- Pagina Anuncio 3 ---------- */
+
+.propiedadAnuncioTres {
+    background-image: url("../Images/anuncio3.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+}
+
+/* ---------- Pagina Anuncio 4 ---------- */
+
+.propiedadAnuncioCuatro {
+    background-image: url("../Images/anuncio4.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+}
+
+/* ---------- Pagina Anuncio 5 ---------- */
+
+.propiedadAnuncioCinco {
+    background-image: url("../Images/anuncio5.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+}
+
+/* ---------- Pagina Anuncio 6 ---------- */
+
+.propiedadAnuncioSeis {
+    background-image: url("../Images/anuncio6.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+}
+
+/* ---------- Pagina Entrada ---------- */
+
+.entrada span {
+    color: rgb(223, 135, 22);
+}
+
+.entrada {
+    margin: 4vh 0;
+}
+
+.textoEntrada , .entrada {
+    margin: 0 20vw;
+    margin-top: 10vh;
+}
+
+.cardEntrada h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+/* ---------- Pagina Entrada 1 ---------- */
+
+.propiedadEntradaUno {
+    background-image: url("../Images/blog1.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+}
+
+/* ---------- Pagina Entrada 2 ---------- */
+
+.propiedadEntradaDos {
+    background-image: url("../Images/blog2.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+}
+
+/* ---------- Pagina Entrada 3 ---------- */
+
+.propiedadEntradaTres {
+    background-image: url("../Images/blog3.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+}
+
+/* ---------- Pagina Entrada 4 ---------- */
+
+.propiedadEntradaCuatro {
+    background-image: url("../Images/blog4.jpg");
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
 }
